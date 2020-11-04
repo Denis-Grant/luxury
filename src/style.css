@@ -1,0 +1,85 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+    /* border: 1px dotted lightgoldenrodyellow; */
+}
+.sidebar {
+    width: 5rem;
+    transition: width .500s ease-in-out;
+}
+.sidebar:hover {
+    width: 20rem;
+}
+.sidebar:hover ~ .main {
+    margin-left: 20rem;
+}
+.main {
+    margin-left: 5rem;
+    transition: margin-left .500s ease-in-out;
+}
+.maxy {
+    max-height: 82px;
+}
+.no-text-wrap {
+    white-space: nowrap;
+}
+/* .contact-text {
+    color: transparent;
+    transition: color 1.5s ease-in;
+}
+.options:hover  .contact-text {
+    color: #718096;
+} */
+
+.home-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in;
+}
+.options:hover  .home-text {
+    color: #718096;
+}
+.about-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in-out;
+}
+.options:hover  .about-text {
+    color: #718096;
+}
+.services-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in-out;
+}
+.options:hover  .services-text {
+    color: #718096;
+}
+.pricing-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in-out;
+}
+.options:hover  .pricing-text {
+    color: #718096;
+}
+.team-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in-out;
+}
+.options:hover  .team-text {
+    color: #718096;
+}
+.contact-text {
+    color: #2B302C;
+    transition: color 1000ms ease-in-out;
+}
+.options:hover  .contact-text {
+    color: #718096;
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../img/bg-img.jpg) no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
